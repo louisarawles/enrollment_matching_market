@@ -1,5 +1,6 @@
 from datetime import date
 
+from src.save_json import load_json
 from src.scraper.courses_scraper import get_course_page_data
 
 
@@ -11,7 +12,7 @@ def parse_course_lines(lines):
         "course_title": None,
         "instructor": None,
     }
-
+    # print(lines)
     # basic course metadata
     for i, line in enumerate(lines):
         if line.startswith("CS ") and i + 2 < len(lines):
@@ -45,65 +46,19 @@ def parse_class_size(lines):
 
     return total
 
-    if "Sections" not in lines:
-        return data
+def parse_avg_gpa(sections):
+    gpas = []
+    for section in sections:
+        text = section[0]
+        parts = text.split(" ")
 
-    # sections
-    i = lines.index("Sections")
-    while i < len(lines):
-        if lines[i] == "Review Summary":
-            break
+        gpa = parts[len(parts) - 2]
+        if gpa != '\u2014':
+            val = float(gpa)
+            if val > 0.0:
+                gpas.append(val)
 
-        if lines[i].startswith("Section "):
-            section = {
-                "section_number": lines[i].replace("Section ", "").strip(),
-                "type": lines[i + 1] if i + 1 < len(lines) else None,
-                "units": lines[i + 2].replace("(", "").replace(")", "") if i + 2 < len(lines) else None,
-                "time": lines[i + 3] if i + 3 < len(lines) else None,
-                "enrolled": None,
-                "waitlist": None,
-                "class_size": 0,
-            }
-
-            j = i
-            while j < len(lines):
-                if (lines[j].startswith("Section ") and j!=i) or (lines[j] == "Review Summary"):
-                    break
-
-                if j + 1 < len(lines) and lines[j] == "Enrolled:":
-                    val = lines[j + 1]
-                    if '/' in val:
-                        _, capacity = val.split("/")
-                        section["class_size"] = int(capacity)
-
-                j += 1
-
-            data["sections"].append(section)
-            i = j
-        else:
-            i += 1
-
-        print(data["sections"])
-
-    # review summary
-    if "Review Summary" in lines:
-        idx = lines.index("Review Summary")
-
-        if idx + 2 < len(lines):
-            data["review_summary_updated"] = lines[idx + 1]
-            data["review_summary"] = lines[idx + 2]
-
-        if idx + 3 < len(lines) and "Reviews" in lines[idx + 3]:
-            data["review_count"] = lines[idx + 3]
-
-    print("updating class size...")
-    print(data["sections"])
-    for section in data["sections"]:
-        print("before: ", data["class_size"])
-        data["class_size"] += section["class_size"]
-        print("after: ", data["class_size"])
-
-    return data
+    return float(sum(gpas)) / float(len(gpas))
 
 
 FIELDS = {
