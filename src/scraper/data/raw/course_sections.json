@@ -1,0 +1,734 @@
+{
+  "/course/CS/1110/": [
+    [
+      "Courses",
+      "/course/CS/1110/"
+    ],
+    [
+      "Arohi Khargonkar Fall 2026 mowefr 11:00am - 11:50am mowefr 9:00am - 9:50am 3.7 Rating 2.8 Difficulty 3.37 GPA",
+      "/course/594/13208/"
+    ],
+    [
+      "Derrick Stone Summer 2025 3.5 Rating 3.5 Difficulty 2.98 GPA",
+      "/course/594/7285/"
+    ],
+    [
+      "Raymond Pettit Fall 2023 3.9 Rating 3.0 Difficulty 3.49 GPA",
+      "/course/594/7733/"
+    ],
+    [
+      "To Announced Fall 2023 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/594/12448/"
+    ],
+    [
+      "Paul McBurney Summer 2023 4.4 Rating 3.3 Difficulty 3.55 GPA",
+      "/course/594/8052/"
+    ],
+    [
+      "Briana Morrison Fall 2022 2.3 Rating 5.0 Difficulty 3.49 GPA",
+      "/course/594/12013/"
+    ],
+    [
+      "Luther Tychonievich Spring 2022 4.0 Rating 3.4 Difficulty 3.31 GPA",
+      "/course/594/4708/"
+    ],
+    [
+      "Faculty Staff Spring 2022 3.0 Rating 3.0 Difficulty \u2014 GPA",
+      "/course/594/6002/"
+    ],
+    [
+      "Aidan San Spring 2022 4.0 Rating 3.0 Difficulty 3.41 GPA",
+      "/course/594/12477/"
+    ],
+    [
+      "Craig Dill Spring 2021 2.7 Rating 3.2 Difficulty 3.48 GPA",
+      "/course/594/6624/"
+    ]
+  ],
+  "/course/CS/1112/": [
+    [
+      "Courses",
+      "/course/CS/1112/"
+    ],
+    [
+      "Nada Basit Fall 2026 mowefr 12:30pm - 1:45pm mowefr 2:00pm - 3:15pm 4.5 Rating 2.0 Difficulty 3.90 GPA",
+      "/course/595/4709/"
+    ],
+    [
+      "Jim Cohoon Fall 2022 4.6 Rating 2.5 Difficulty \u2014 GPA",
+      "/course/595/8048/"
+    ],
+    [
+      "Elizabeth Orrico Spring 2022 5.0 Rating 1.0 Difficulty 3.29 GPA",
+      "/course/595/11441/"
+    ]
+  ],
+  "/course/CS/2100/": [
+    [
+      "Courses",
+      "/course/CS/2100/"
+    ],
+    [
+      "Briana Morrison Fall 2026 mowefr 11:00am - 11:50am mowefr 2:00pm - 2:50pm 3.0 Rating 2.9 Difficulty 3.52 GPA",
+      "/course/14940/12013/"
+    ],
+    [
+      "Xinyao Yi Spring 2026 3.3 Rating 2.8 Difficulty 3.39 GPA",
+      "/course/14940/14040/"
+    ],
+    [
+      "Derrick Stone Spring 2024 2.8 Rating 3.3 Difficulty 3.63 GPA",
+      "/course/14940/7285/"
+    ],
+    [
+      "To Announced Fall 2023 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/14940/12448/"
+    ],
+    [
+      "Nada Basit Fall 2022 4.7 Rating 3.0 Difficulty 3.81 GPA",
+      "/course/14940/4709/"
+    ],
+    [
+      "Tom Horton Fall 2022 3.2 Rating 3.3 Difficulty \u2014 GPA",
+      "/course/14940/8055/"
+    ],
+    [
+      "Mark Floryan Spring 2022 3.6 Rating 3.3 Difficulty 3.70 GPA",
+      "/course/14940/4710/"
+    ]
+  ],
+  "/course/CS/2120/": [
+    [
+      "Courses",
+      "/course/CS/2120/"
+    ],
+    [
+      "Rohan Chandra Fall 2026 tuth 11:00am - 12:15pm 1.8 Rating 4.5 Difficulty 2.73 GPA",
+      "/course/14941/13663/"
+    ],
+    [
+      "Sarah Elder Fall 2026 mowefr 1:00pm - 1:50pm 3.2 Rating 2.5 Difficulty 3.35 GPA",
+      "/course/14941/14041/"
+    ],
+    [
+      "Aidan San Spring 2026 2.2 Rating 3.5 Difficulty \u2014 GPA",
+      "/course/14941/12477/"
+    ],
+    [
+      "Kevin Sullivan Fall 2025 2.7 Rating 2.6 Difficulty 3.64 GPA",
+      "/course/14941/615/"
+    ],
+    [
+      "To Announced Fall 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/14941/12448/"
+    ],
+    [
+      "Shivani Datar Spring 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/14941/13657/"
+    ],
+    [
+      "Elizabeth Orrico Fall 2024 3.3 Rating 2.9 Difficulty 3.45 GPA",
+      "/course/14941/11441/"
+    ],
+    [
+      "Nathan Brunelle Fall 2022 4.6 Rating 2.2 Difficulty 3.70 GPA",
+      "/course/14941/6046/"
+    ],
+    [
+      "Briana Morrison Spring 2022 3.2 Rating 1.5 Difficulty 3.44 GPA",
+      "/course/14941/12013/"
+    ]
+  ],
+  "/course/CS/2130/": [
+    [
+      "Courses",
+      "/course/CS/2130/"
+    ],
+    [
+      "Xinyao Yi Fall 2026 mowefr 1:00pm - 1:50pm mowefr 12:00pm - 12:50pm 3.9 Rating 4.4 Difficulty 2.55 GPA",
+      "/course/14942/14040/"
+    ],
+    [
+      "Robbie Hott Spring 2026 3.1 Rating 4.5 Difficulty 2.96 GPA",
+      "/course/14942/12014/"
+    ],
+    [
+      "Todd Delong Spring 2025 3.1 Rating 4.4 Difficulty 3.46 GPA",
+      "/course/14942/3371/"
+    ],
+    [
+      "Daniel Graham Spring 2025 2.4 Rating 4.3 Difficulty 3.27 GPA",
+      "/course/14942/7737/"
+    ],
+    [
+      "To Announced Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/14942/12448/"
+    ],
+    [
+      "Luther Tychonievich Spring 2022 3.7 Rating 4.0 Difficulty 3.26 GPA",
+      "/course/14942/4708/"
+    ]
+  ],
+  "/course/CS/2910/": [
+    [
+      "Courses",
+      "/course/CS/2910/"
+    ],
+    [
+      "Nada Basit Fall 2026 2.5 Rating 1.0 Difficulty 3.96 GPA",
+      "/course/12350/4709/"
+    ],
+    [
+      "Angela Orebaugh Fall 2026 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/12350/5701/"
+    ],
+    [
+      "Briana Morrison Fall 2024 5.0 Rating 1.0 Difficulty \u2014 GPA",
+      "/course/12350/12013/"
+    ],
+    [
+      "Mark Sherriff Spring 2023 \u2014 Rating \u2014 Difficulty 3.89 GPA",
+      "/course/12350/599/"
+    ],
+    [
+      "To Announced Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/12350/12448/"
+    ],
+    [
+      "Faculty Staff Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/12350/6002/"
+    ],
+    [
+      "Nathan Brunelle Spring 2022 \u2014 Rating \u2014 Difficulty 3.93 GPA",
+      "/course/12350/6046/"
+    ],
+    [
+      "Luther Tychonievich Fall 2021 4.7 Rating 1.0 Difficulty 3.96 GPA",
+      "/course/12350/4708/"
+    ]
+  ],
+  "/course/CS/3100/": [
+    [
+      "Courses",
+      "/course/CS/3100/"
+    ],
+    [
+      "Aaron Bloomfield Fall 2026 tuth 12:30pm - 1:45pm 3.0 Rating 4.1 Difficulty 2.94 GPA",
+      "/course/15226/605/"
+    ],
+    [
+      "Robbie Hott Fall 2026 tuth 9:30am - 10:45am 4.1 Rating 4.4 Difficulty 3.45 GPA",
+      "/course/15226/12014/"
+    ],
+    [
+      "Mark Floryan Spring 2026 3.9 Rating 4.3 Difficulty 3.29 GPA",
+      "/course/15226/4710/"
+    ],
+    [
+      "Raymond Pettit Spring 2025 2.8 Rating 4.4 Difficulty 3.31 GPA",
+      "/course/15226/7733/"
+    ],
+    [
+      "Tom Horton Fall 2023 3.3 Rating 4.2 Difficulty \u2014 GPA",
+      "/course/15226/8055/"
+    ],
+    [
+      "Nathan Brunelle Spring 2023 \u2014 Rating \u2014 Difficulty 3.38 GPA",
+      "/course/15226/6046/"
+    ]
+  ],
+  "/course/CS/3120/": [
+    [
+      "Courses",
+      "/course/CS/3120/"
+    ],
+    [
+      "Mark Floryan Fall 2026 tuth 9:30am - 10:45am tuth 11:00am - 12:15pm 3.2 Rating 4.2 Difficulty 3.09 GPA",
+      "/course/15227/4710/"
+    ],
+    [
+      "Raymond Pettit Spring 2026 4.0 Rating 4.0 Difficulty 2.82 GPA",
+      "/course/15227/7733/"
+    ],
+    [
+      "Wei-Kai Lin Spring 2026 2.3 Rating 4.0 Difficulty 3.05 GPA",
+      "/course/15227/13211/"
+    ],
+    [
+      "Faculty Staff Summer 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/15227/6002/"
+    ],
+    [
+      "David Evans Spring 2023 \u2014 Rating \u2014 Difficulty 3.83 GPA",
+      "/course/15227/606/"
+    ],
+    [
+      "Mohammad Mahmoody Spring 2023 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/15227/11844/"
+    ],
+    [
+      "Nathan Brunelle Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/15227/6046/"
+    ]
+  ],
+  "/course/CS/3130/": [
+    [
+      "Courses",
+      "/course/CS/3130/"
+    ],
+    [
+      "Charles Reiss Fall 2026 tuth 2:00pm - 3:15pm 3.0 Rating 4.7 Difficulty 3.23 GPA",
+      "/course/15228/6862/"
+    ],
+    [
+      "Brad Campbell Spring 2026 \u2014 Rating \u2014 Difficulty 3.21 GPA",
+      "/course/15228/8059/"
+    ],
+    [
+      "Kevin Skadron Fall 2025 3.8 Rating 3.3 Difficulty 3.32 GPA",
+      "/course/15228/612/"
+    ],
+    [
+      "Daniel Graham Fall 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/15228/7737/"
+    ],
+    [
+      "Luther Tychonievich Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/15228/4708/"
+    ]
+  ],
+  "/course/CS/3140/": [
+    [
+      "Courses",
+      "/course/CS/3140/"
+    ],
+    [
+      "Derrick Stone Fall 2026 tuth 3:30pm - 4:45pm tuth 2:00pm - 3:15pm 2.3 Rating 3.0 Difficulty 3.23 GPA",
+      "/course/15206/7285/"
+    ],
+    [
+      "Rich Nguyen Fall 2025 3.8 Rating 3.2 Difficulty 3.45 GPA",
+      "/course/15206/8050/"
+    ],
+    [
+      "Paul McBurney Fall 2024 3.2 Rating 3.2 Difficulty 3.22 GPA",
+      "/course/15206/8052/"
+    ]
+  ],
+  "/course/CS/3205/": [
+    [
+      "Courses",
+      "/course/CS/3205/"
+    ],
+    [
+      "Panagiotis Apostolellis Fall 2026 tuth 3:30pm - 4:45pm 2.0 Rating 3.3 Difficulty 3.60 GPA",
+      "/course/9484/7734/"
+    ],
+    [
+      "Seongkook Heo Spring 2025 4.7 Rating 2.0 Difficulty 3.91 GPA",
+      "/course/9484/8056/"
+    ],
+    [
+      "Mary Smith Summer 2021 1.7 Rating 2.7 Difficulty 3.46 GPA",
+      "/course/9484/4621/"
+    ]
+  ],
+  "/course/CS/3240/": [
+    [
+      "Courses",
+      "/course/CS/3240/"
+    ],
+    [
+      "Sarah Elder Fall 2026 mowefr 12:00pm - 12:50pm \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/7610/14041/"
+    ],
+    [
+      "Mark Sherriff Spring 2026 4.0 Rating 2.6 Difficulty 3.77 GPA",
+      "/course/7610/599/"
+    ],
+    [
+      "Derrick Stone Fall 2025 4.1 Rating 2.3 Difficulty 3.81 GPA",
+      "/course/7610/7285/"
+    ],
+    [
+      "Tom Horton Fall 2024 4.7 Rating 2.0 Difficulty \u2014 GPA",
+      "/course/7610/8055/"
+    ],
+    [
+      "Sebastian Elbaum Spring 2024 \u2014 Rating \u2014 Difficulty 3.89 GPA",
+      "/course/7610/7741/"
+    ],
+    [
+      "Paul McBurney Fall 2022 3.8 Rating 3.5 Difficulty 3.66 GPA",
+      "/course/7610/8052/"
+    ]
+  ],
+  "/course/CS/3250/": [
+    [
+      "Courses",
+      "/course/CS/3250/"
+    ],
+    [
+      "Upsorn Praphamontripong Fall 2026 mowefr 1:00pm - 1:50pm 3.7 Rating 2.3 Difficulty 3.47 GPA",
+      "/course/13744/6860/"
+    ],
+    [
+      "Wenxi Wang Fall 2026 tuth 5:00pm - 6:15pm 2.3 Rating 2.0 Difficulty 3.84 GPA",
+      "/course/13744/13658/"
+    ],
+    [
+      "To Announced Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/13744/12448/"
+    ]
+  ],
+  "/course/CS/3710/": [
+    [
+      "Courses",
+      "/course/CS/3710/"
+    ],
+    [
+      "Aaron Bloomfield Summer 2026 3.7 Rating 3.6 Difficulty 3.04 GPA",
+      "/course/13745/605/"
+    ],
+    [
+      "Angela Orebaugh Fall 2026 mowefr 10:00am - 10:50am mowefr 11:00am - 11:50am 4.7 Rating 1.4 Difficulty 3.85 GPA",
+      "/course/13745/5701/"
+    ],
+    [
+      "Raymond Pettit Spring 2026 3.8 Rating 1.5 Difficulty 3.78 GPA",
+      "/course/13745/7733/"
+    ],
+    [
+      "Tianhao Wang Fall 2024 2.8 Rating 1.5 Difficulty 3.82 GPA",
+      "/course/13745/12481/"
+    ],
+    [
+      "Yuan Tian Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/13745/7288/"
+    ],
+    [
+      "William Shand Fall 2022 4.3 Rating 3.0 Difficulty 3.85 GPA",
+      "/course/13745/12830/"
+    ],
+    [
+      "Ronald Williams Fall 2021 2.8 Rating 2.3 Difficulty 3.64 GPA",
+      "/course/13745/671/"
+    ]
+  ],
+  "/course/CS/4444/": [
+    [
+      "Courses",
+      "/course/CS/4444/"
+    ],
+    [
+      "Adwait Jog Fall 2026 tuth 12:30pm - 1:45pm 5.0 Rating 4.0 Difficulty 3.81 GPA",
+      "/course/607/13126/"
+    ]
+  ],
+  "/course/CS/4457/": [
+    [
+      "Courses",
+      "/course/CS/4457/"
+    ],
+    [
+      "Charles Reiss Fall 2026 tuth 12:30pm - 1:45pm 1.0 Rating 4.0 Difficulty 3.12 GPA",
+      "/course/608/6862/"
+    ],
+    [
+      "Qizhe Cai Spring 2026 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/608/14042/"
+    ],
+    [
+      "Hyojoon Kim Spring 2025 \u2014 Rating \u2014 Difficulty 3.55 GPA",
+      "/course/608/13209/"
+    ],
+    [
+      "Daniel Graham Spring 2023 2.3 Rating 3.3 Difficulty 3.70 GPA",
+      "/course/608/7737/"
+    ],
+    [
+      "Brad Campbell Spring 2022 4.5 Rating 3.0 Difficulty \u2014 GPA",
+      "/course/608/8059/"
+    ]
+  ],
+  "/course/CS/4501/": [
+    [
+      "Courses",
+      "/course/CS/4501/"
+    ],
+    [
+      "Angela Orebaugh Summer 2026 \u2014 Rating \u2014 Difficulty 3.66 GPA",
+      "/course/609/5701/"
+    ],
+    [
+      "Jack Davidson Fall 2026 mowe 3:30pm - 4:45pm \u2014 Rating \u2014 Difficulty 3.45 GPA",
+      "/course/609/609/"
+    ],
+    [
+      "Yixin Sun Fall 2026 mowe 2:00pm - 3:15pm 3.3 Rating 2.8 Difficulty 3.54 GPA",
+      "/course/609/4533/"
+    ],
+    [
+      "Panagiotis Apostolellis Fall 2026 tuth 2:00pm - 3:15pm 3.7 Rating 4.0 Difficulty 3.64 GPA",
+      "/course/609/7734/"
+    ],
+    [
+      "Sebastian Elbaum Fall 2026 tuth 11:00am - 12:15pm \u2014 Rating \u2014 Difficulty 3.77 GPA",
+      "/course/609/7741/"
+    ],
+    [
+      "Miaomiao Zhang Fall 2026 mowe 2:00pm - 3:15pm 5.0 Rating 4.0 Difficulty 3.64 GPA",
+      "/course/609/8053/"
+    ],
+    [
+      "Tianhao Wang Fall 2026 tuth 2:00pm - 3:15pm \u2014 Rating \u2014 Difficulty 3.74 GPA",
+      "/course/609/12481/"
+    ],
+    [
+      "Jing Yang Fall 2026 tuth 12:30pm - 1:45pm \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/13969/"
+    ],
+    [
+      "David Evans Spring 2026 1.4 Rating 2.3 Difficulty 3.90 GPA",
+      "/course/609/606/"
+    ],
+    [
+      "Mark Floryan Spring 2026 \u2014 Rating \u2014 Difficulty 3.71 GPA",
+      "/course/609/4710/"
+    ],
+    [
+      "Denis Nekipelov Spring 2026 4.7 Rating 2.0 Difficulty \u2014 GPA",
+      "/course/609/5883/"
+    ],
+    [
+      "Derrick Stone Spring 2026 4.7 Rating 1.0 Difficulty \u2014 GPA",
+      "/course/609/7285/"
+    ],
+    [
+      "Kun Qian Spring 2026 1.7 Rating 1.0 Difficulty 3.81 GPA",
+      "/course/609/13548/"
+    ],
+    [
+      "Zezhou Cheng Spring 2026 \u2014 Rating \u2014 Difficulty 3.96 GPA",
+      "/course/609/13660/"
+    ],
+    [
+      "Matheus Ferreira Spring 2026 \u2014 Rating \u2014 Difficulty 3.56 GPA",
+      "/course/609/13661/"
+    ],
+    [
+      "Jack Doerner Spring 2026 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/14294/"
+    ],
+    [
+      "Arsalan Heydarian Fall 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/7267/"
+    ],
+    [
+      "Madhur Behl Fall 2025 2.4 Rating 2.8 Difficulty 3.78 GPA",
+      "/course/609/7287/"
+    ],
+    [
+      "Tom Fletcher Fall 2025 \u2014 Rating \u2014 Difficulty 3.57 GPA",
+      "/course/609/8054/"
+    ],
+    [
+      "Brad Campbell Fall 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/8059/"
+    ],
+    [
+      "Shangtong Zhang Fall 2025 4.7 Rating 2.0 Difficulty 3.90 GPA",
+      "/course/609/12627/"
+    ],
+    [
+      "Yu Meng Fall 2025 5.0 Rating 2.0 Difficulty 3.92 GPA",
+      "/course/609/13546/"
+    ],
+    [
+      "Yanjun Qi Spring 2025 4.5 Rating 2.5 Difficulty 3.59 GPA",
+      "/course/609/4712/"
+    ],
+    [
+      "Tariq Iqbal Spring 2025 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/8060/"
+    ],
+    [
+      "Henry Kautz Spring 2025 \u2014 Rating \u2014 Difficulty 3.99 GPA",
+      "/course/609/13659/"
+    ],
+    [
+      "Matheus Xavier Ferreira Spring 2025 2.0 Rating 5.0 Difficulty \u2014 GPA",
+      "/course/609/13868/"
+    ],
+    [
+      "Aaron Bloomfield Spring 2024 4.9 Rating 3.3 Difficulty 3.33 GPA",
+      "/course/609/605/"
+    ],
+    [
+      "Ashish Venkat Spring 2024 \u2014 Rating \u2014 Difficulty 3.86 GPA",
+      "/course/609/7735/"
+    ],
+    [
+      "Seongkook Heo Spring 2024 4.4 Rating 2.0 Difficulty 3.89 GPA",
+      "/course/609/8056/"
+    ],
+    [
+      "Chen-Yu Wei Spring 2024 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/13210/"
+    ],
+    [
+      "Wei-Kai Lin Spring 2024 \u2014 Rating \u2014 Difficulty 3.21 GPA",
+      "/course/609/13211/"
+    ],
+    [
+      "Yonghwi Kwon Fall 2023 \u2014 Rating \u2014 Difficulty 4.00 GPA",
+      "/course/609/7738/"
+    ],
+    [
+      "Hongning Wang Spring 2023 2.8 Rating 4.5 Difficulty 3.57 GPA",
+      "/course/609/5714/"
+    ],
+    [
+      "Nabeel Nasir Spring 2023 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/13465/"
+    ],
+    [
+      "Farzad Hassanzadeh Fall 2022 2.3 Rating 4.0 Difficulty 3.50 GPA",
+      "/course/609/6874/"
+    ],
+    [
+      "Daniel Graham Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/7737/"
+    ],
+    [
+      "Hao Lou Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/12831/"
+    ],
+    [
+      "John Stankovic Spring 2022 2.7 Rating 2.0 Difficulty 3.60 GPA",
+      "/course/609/614/"
+    ],
+    [
+      "Scott Acton Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/679/"
+    ],
+    [
+      "Deborah Johnson Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/2643/"
+    ],
+    [
+      "Faculty Staff Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/6002/"
+    ],
+    [
+      "Yangfeng Ji Spring 2022 \u2014 Rating \u2014 Difficulty 3.85 GPA",
+      "/course/609/7742/"
+    ],
+    [
+      "Haifeng Xu Spring 2022 4.3 Rating 2.0 Difficulty 3.98 GPA",
+      "/course/609/8057/"
+    ],
+    [
+      "It Davidson Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/12478/"
+    ],
+    [
+      "and Orebaugh. Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/12479/"
+    ],
+    [
+      "Hanjie Chen Spring 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/12480/"
+    ],
+    [
+      "Mary Soffa Fall 2021 3.3 Rating 3.0 Difficulty 3.49 GPA",
+      "/course/609/620/"
+    ],
+    [
+      "Kevin Sullivan Spring 2021 3.5 Rating 2.5 Difficulty 3.69 GPA",
+      "/course/609/615/"
+    ],
+    [
+      "Mohammad Ghidary Spring 2021 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/609/6047/"
+    ],
+    [
+      "Vicente Ordonez-Roman Spring 2021 \u2014 Rating \u2014 Difficulty 3.75 GPA",
+      "/course/609/6864/"
+    ],
+    [
+      "Mohammad Mahmoody Spring 2021 \u2014 Rating \u2014 Difficulty 3.66 GPA",
+      "/course/609/11844/"
+    ]
+  ],
+  "/course/CS/4620/": [
+    [
+      "Courses",
+      "/course/CS/4620/"
+    ],
+    [
+      "Matthew Dwyer Fall 2026 tuth 9:30am - 10:45am 5.0 Rating 4.0 Difficulty 3.65 GPA",
+      "/course/10644/7918/"
+    ]
+  ],
+  "/course/CS/4630/": [
+    [
+      "Courses",
+      "/course/CS/4630/"
+    ],
+    [
+      "Wajih Hassan Fall 2026 tuth 3:30pm - 4:45pm 4.0 Rating 4.0 Difficulty 3.33 GPA",
+      "/course/611/12628/"
+    ],
+    [
+      "Charles Reiss Spring 2026 4.8 Rating 3.7 Difficulty 3.16 GPA",
+      "/course/611/6862/"
+    ],
+    [
+      "Jack Davidson Spring 2024 2.8 Rating 3.3 Difficulty 3.24 GPA",
+      "/course/611/609/"
+    ],
+    [
+      "To Announced Fall 2022 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/611/12448/"
+    ]
+  ],
+  "/course/CS/4710/": [
+    [
+      "Courses",
+      "/course/CS/4710/"
+    ],
+    [
+      "Lu Feng Fall 2026 tuth 2:00pm - 3:15pm 2.5 Rating 2.0 Difficulty 3.95 GPA",
+      "/course/9485/7031/"
+    ],
+    [
+      "Ferdinando Fioretto Fall 2026 mowe 3:30pm - 4:45pm 3.0 Rating 3.0 Difficulty 3.86 GPA",
+      "/course/9485/13213/"
+    ],
+    [
+      "Yen-Ling Kuo Spring 2026 3.0 Rating 3.7 Difficulty 3.66 GPA",
+      "/course/9485/13127/"
+    ],
+    [
+      "Zhe Zeng Spring 2026 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/9485/14043/"
+    ],
+    [
+      "Yangfeng Ji Spring 2025 1.7 Rating 3.0 Difficulty 3.76 GPA",
+      "/course/9485/7742/"
+    ],
+    [
+      "Chen-Yu Wei Fall 2024 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+      "/course/9485/13210/"
+    ],
+    [
+      "Mark Floryan Spring 2022 4.4 Rating 3.4 Difficulty 3.13 GPA",
+      "/course/9485/4710/"
+    ],
+    [
+      "Haifeng Xu Fall 2021 \u2014 Rating \u2014 Difficulty 3.73 GPA",
+      "/course/9485/8057/"
+    ]
+  ]
+}
