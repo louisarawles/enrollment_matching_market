@@ -56,8 +56,6 @@ def get_course_addrs(department="31"):
                 break
             # new_link = c + "?latest=false"
             course_links.append(c)
-
-        # print(course_links)
         page += 1
 
 
@@ -89,7 +87,6 @@ def get_course_section_dict(course_links):
         for s in section_list:
             href = s[1]
             if not "?mode=clubs" in href and not href.startswith("/login"):
-                # print("s: ",s)
                 section_links.append(s)
 
         course_section_dict[course_key] = section_links
