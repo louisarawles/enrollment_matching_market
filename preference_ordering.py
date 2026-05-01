@@ -82,14 +82,16 @@ def score_course_preferences(students: pd.DataFrame, courses: pd.DataFrame) -> p
     c_writ = courses['Writing'].values[None, :]
     c_gw   = courses['Group Work'].values[None, :]
 
+    c_gpa  = courses['Avg GPA'].values[None, :]
+
     scores  = np.zeros((len(students), len(courses)))
     scores += (s_maj == c_dept) * 10
     scores += s_year * 4
-    scores += s_gpa * 3
+    scores -= np.abs(s_gpa - c_gpa) * 3
     scores += s_time * 2
-    scores -= np.abs(s_read - c_read) * 0.5
-    scores -= np.abs(s_writ - c_writ) * 0.5
-    scores -= np.abs(s_gw - c_gw) * 0.5
+    scores -= np.abs(s_read - c_read) * 1.0
+    scores -= np.abs(s_writ - c_writ) * 1.0
+    scores -= np.abs(s_gw - c_gw) * 1.0
 
     return pd.DataFrame(scores, index=students['Computing ID'], columns=courses['Course ID'])
 
