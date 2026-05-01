@@ -3,17 +3,18 @@
 from deferred_acceptance import da
 from random_serial_dictatorship import rsd
 import pandas as pd
+from preference_ordering import build_preference_dfs   
 
 # Students are represented in a database with rows = students (based on computing id), columns = courses (based on course id) where student preference ranks (lower = more preferred)
 # Courses are represented in a database with course's preferences (rows = courses, cols = students) course preference ranks over students (lower = more preferred)
 
-students_df = pd.read_csv("student_preferences.csv")
-courses_df = pd.read_csv("course_preferences.csv")
-course_quota_df = pd.read_csv('course_quotas.csv')
-courses_quota = dict(zip(course_quota_df['course'], course_quota_df['quota']))
+STUDENT_DATA = "student_raw_data_updated.csv"
+COURSE_DATA = "courses_simulated.csv"
+
+students_df, courses_df, courses_quota = build_preference_dfs(student_data_file=STUDENT_DATA, course_data_file=COURSE_DATA) 
 
 da_matching = da(students_df, courses_df, courses_quota)
-rsd_matching = rsd(students_df, courses_df, courses_quota)
+rsd_matching = rsd(students_df, courses_quota)
 
 def blocking_pairs(matching, students_df, courses_df, courses_quota):
     # Evaluate matching for blocking pairs, more relevant for RSD because DA is guaranteed to produce no blocking pairs
