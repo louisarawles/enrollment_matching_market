@@ -24,7 +24,7 @@ import numpy as np
 #FILE NAMES (update whenever we change the file)
 STUDENT_DATA = "student_raw_data_updated.csv"
 COURSE_DATA = "courseforum.csv"
-NUM_STUDENTS = 1000
+NUM_STUDENTS = 2000
 
 
 # map quota to size preference (i.e. raw quota to size preference 0-5)
