@@ -65,7 +65,7 @@ def da(
                         pair: matches[pair] for pair in matches.keys() if course in pair
                     }.items(),
                     key=lambda x: x[1][1],
-                )[1:]
+                )[courses_quota[course]:]
 
                 for p_to_drop in pairs_to_drop:
                     del matches[p_to_drop[0]]
