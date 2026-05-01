@@ -3,15 +3,12 @@
 from deferred_acceptance import da
 from random_serial_dictatorship import rsd
 import pandas as pd
-from preference_ordering import build_preference_dfs   
+from preference_ordering import build_preference_dfs, STUDENT_DATA, COURSE_DATA, NUM_STUDENTS
 
 # Students are represented in a database with rows = students (based on computing id), columns = courses (based on course id) where student preference ranks (lower = more preferred)
 # Courses are represented in a database with course's preferences (rows = courses, cols = students) course preference ranks over students (lower = more preferred)
 
-STUDENT_DATA = "student_raw_data_updated.csv"
-COURSE_DATA = "courses_simulated.csv"
-
-students_df, courses_df, courses_quota = build_preference_dfs(student_data_file=STUDENT_DATA, course_data_file=COURSE_DATA) 
+students_df, courses_df, courses_quota = build_preference_dfs(student_data_file=STUDENT_DATA, course_data_file=COURSE_DATA, num_students=NUM_STUDENTS)
 
 da_matching = da(students_df, courses_df, courses_quota)
 rsd_matching = rsd(students_df, courses_quota)
@@ -101,12 +98,5 @@ print(f"{'Top choice %':<30} {rsd_satisfaction['top_choice_pct']:>7}% {da_satisf
 print(f"{'Unmatched students':<30} {len(rsd_satisfaction['unmatched']):>8} {len(da_satisfaction['unmatched']):>8}")
 print("=" * 50)
  
-if rsd_blocking:
-    print(f"\nRSD blocking pairs: {rsd_blocking}")
-if da_blocking:
-    print(f"DA blocking pairs:  {da_blocking}")
-if rsd_swaps:
-    print(f"\nRSD Pareto-improving swaps: {rsd_swaps}")
-if da_swaps:
-    print(f"DA Pareto-improving swaps:  {da_swaps}")
+
  
