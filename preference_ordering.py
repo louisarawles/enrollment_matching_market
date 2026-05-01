@@ -24,7 +24,7 @@ import numpy as np
 #FILE NAMES (update whenever we change the file)
 STUDENT_DATA = "student_raw_data_updated.csv"
 COURSE_DATA = "courseforum.csv"
-NUM_STUDENTS = 2000
+NUM_STUDENTS = 2800
 
 
 # map quota to size preference (i.e. raw quota to size preference 0-5)
@@ -53,14 +53,14 @@ def score_student_preferences(students: pd.DataFrame, courses: pd.DataFrame) -> 
     c_dept = courses['Department'].values[None, :]
 
     scores  = np.zeros((len(students), len(courses)))
-    scores -= np.abs(s_gpa - c_gpa) * 2
-    scores += (s_maj == c_dept) * 3
-    scores -= np.abs(s_size - c_size)
-    scores -= np.abs(s_read - c_read)
-    scores -= np.abs(s_writ - c_writ)
-    scores -= np.abs(s_gw - c_gw)
-    time_diff = c_time - s_time
-    scores -= np.where(time_diff > 0, time_diff * 2, 0)
+    scores -= np.abs(s_gpa - c_gpa) * 8
+    scores += (s_maj == c_dept) * 10
+    scores -= np.abs(s_size - c_size) * 1
+    scores -= np.abs(s_read - c_read) * 1
+    scores -= np.abs(s_writ - c_writ) * 1
+    scores -= np.abs(s_gw - c_gw) * 1
+    time_diff = c_time - s_time 
+    scores -= np.where(time_diff > 0, time_diff * 0.5, 0)
 
     return pd.DataFrame(scores, index=students['Computing ID'], columns=courses['Course ID'])
 
@@ -83,10 +83,10 @@ def score_course_preferences(students: pd.DataFrame, courses: pd.DataFrame) -> p
     c_gw   = courses['Group Work'].values[None, :]
 
     scores  = np.zeros((len(students), len(courses)))
-    scores += (s_maj == c_dept) * 3
-    scores += s_year
-    scores += s_gpa
-    scores += s_time * 0.5
+    scores += (s_maj == c_dept) * 10
+    scores += s_year * 4
+    scores += s_gpa * 3
+    scores += s_time * 2
     scores -= np.abs(s_read - c_read) * 0.5
     scores -= np.abs(s_writ - c_writ) * 0.5
     scores -= np.abs(s_gw - c_gw) * 0.5
@@ -95,8 +95,8 @@ def score_course_preferences(students: pd.DataFrame, courses: pd.DataFrame) -> p
 
 
 # convert scores to preference ordering
-def scores_to_ranks(score_matrix: pd.DataFrame, ascending: bool = False) -> pd.DataFrame:
-    return score_matrix.rank(axis=1, ascending=ascending, method='first').astype(int) - 1
+def scores_to_ranks(score_matrix: pd.DataFrame, ascending: bool = False, axis: int = 1) -> pd.DataFrame:
+    return score_matrix.rank(axis=axis, ascending=ascending, method='first').astype(int) - 1
 
 
 # turn the preferences into a neatly organized df to feed into the matching mechanism
@@ -114,9 +114,10 @@ def build_preference_dfs(student_data_file: str, course_data_file: str, num_stud
     print("Computing course preference scores...")
     course_scores  = score_course_preferences(students, courses)
 
-    # Rank: rank 0 = most preferred (highest score → lowest rank)
-    students_df = scores_to_ranks(student_scores, ascending=False)
-    courses_df  = scores_to_ranks(course_scores,  ascending=False)
+    # students_df: rank across courses for each student (axis=1) — lower = more preferred by student
+    # courses_df:  rank across students for each course (axis=0) — lower = more preferred by course
+    students_df = scores_to_ranks(student_scores, ascending=False, axis=1)
+    courses_df  = scores_to_ranks(course_scores,  ascending=False, axis=0)
 
     courses_quota = dict(zip(courses['Course ID'], courses['Quota']))
 
