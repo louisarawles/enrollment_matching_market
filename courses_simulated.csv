@@ -1,0 +1,38 @@
+﻿Course ID,Course Name,Department,Quota,Avg GPA,Reading,Writing,Group Work,Hours Needed
+CS 1110,Introduction to Programming,CS,40,3.1,1,1,2,3
+CS 1111,Introduction to Programming (Exp),CS,30,3.25,1,1,2,2
+CS 1112,Introduction to Programming (No Exp),CS,25,3,1,1,2,3
+CS 1113,Introduction to Programming (Special),CS,20,3.15,1,1,2,3
+CS 2100,Data Structures and Algorithms 1,CS,40,2.95,2,1,1,4
+CS 2120,Discrete Mathematics and Theory 1,CS,35,2.85,3,2,1,3
+CS 2130,Computer Systems and Organization 1,CS,35,2.8,2,1,1,4
+CS 3100,Data Structures and Algorithms 2,CS,30,3.05,2,1,1,4
+CS 3120,Discrete Mathematics and Theory 2,CS,25,2.95,3,2,1,3
+CS 3130,Computer Systems and Organization 2,CS,25,2.85,2,1,1,5
+CS 3140,Software Development Essentials,CS,30,3.2,2,2,3,3
+CS 3240,Software Engineering,CS,30,3.1,2,3,4,3
+CS 3330,Computer Architecture,CS,30,2.9,2,1,1,4
+CS 4102,Algorithms,CS,25,3,3,2,1,4
+CS 4240,Software Design,CS,20,3.2,2,3,3,3
+CS 4260,Internet Scale Apps,CS,20,3.15,3,2,2,3
+CS 4330,Advanced Computer Architecture,CS,20,3,2,1,1,4
+CS 4414,Operating Systems,CS,20,2.85,2,1,1,5
+CS 4434,Dependable Computing,CS,15,3.1,3,2,2,3
+CS 4444,Parallel Computing,CS,20,3,2,1,2,4
+CS 4457,Computer Networks,CS,25,3,2,1,2,3
+CS 4458,Internet Networking,CS,20,3.1,2,1,2,3
+CS 4610,Programming Languages,CS,20,3.2,3,2,1,3
+CS 4620,Compilers,CS,15,2.85,2,1,1,5
+CS 4640,Web Programming Languages,CS,25,3.3,2,2,2,3
+CS 4710,Artificial Intelligence,CS,30,3.2,3,2,2,3
+CS 4720,Mobile App Development,CS,20,3.3,1,2,3,3
+CS 4730,Game Design,CS,25,3.4,1,2,3,4
+CS 4740,Cloud Computing,CS,25,3.2,2,1,2,3
+CS 4750,Database Systems,CS,25,3.2,2,2,2,3
+CS 4753,E-Commerce Technology,CS,20,3.3,2,3,3,2
+CS 4774,Machine Learning,CS,25,3.1,3,2,2,4
+CS 4780,Information Retrieval,CS,20,3.2,3,2,2,3
+CS 4810,Computer Graphics,CS,20,3.2,2,1,2,4
+CS 4971,Capstone Practicum II,CS,15,3.4,2,4,4,4
+CS 4980,Capstone Research,CS,10,3.5,4,5,1,5
+CS 4991,Capstone Technical Report,CS,10,3.5,3,5,1,4
