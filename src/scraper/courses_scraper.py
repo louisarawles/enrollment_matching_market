@@ -70,6 +70,19 @@ def get_course_addrs(department="31"):
 def get_course_section_dict(course_links):
     course_section_dict = {}
     for item in course_links[:20]:
+        info = item[0].split(" ")
+        code = info[0] + " " + info[1]
+        seasons = ["Fall", "Spring", "Summer", "Winter"]
+        i = 2
+        token = info[i]
+        title = []
+        while i < len(info) and token not in seasons:
+            title.append(token)
+            i += 1
+            token = info[i]
+        str_title = " ".join(title)
+        course_key = code + ":" + str_title
+        print(course_key)
         # print(item)
         item_list = list(item)
         # print(f"href: {item_list[-1]}")
@@ -90,7 +103,7 @@ def get_course_section_dict(course_links):
             # item_list = list(item)
             # print(f"href: {item_list[-1]}")
 
-        course_section_dict[item_list[-1]] = section_links
+        course_section_dict[course_key] = section_links
 
     return course_section_dict
 

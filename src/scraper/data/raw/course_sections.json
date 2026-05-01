@@ -1,5 +1,5 @@
 {
-  "/course/CS/1110/": [
+  "CS 1110:Introduction to Programming": [
     [
       "Courses",
       "/course/CS/1110/"
@@ -45,7 +45,7 @@
       "/course/594/6624/"
     ]
   ],
-  "/course/CS/1112/": [
+  "CS 1112:Introduction to Programming": [
     [
       "Courses",
       "/course/CS/1112/"
@@ -63,7 +63,7 @@
       "/course/595/11441/"
     ]
   ],
-  "/course/CS/2100/": [
+  "CS 2100:Data Structures and Algorithms 1": [
     [
       "Courses",
       "/course/CS/2100/"
@@ -97,7 +97,7 @@
       "/course/14940/4710/"
     ]
   ],
-  "/course/CS/2120/": [
+  "CS 2120:Discrete Mathematics and Theory 1": [
     [
       "Courses",
       "/course/CS/2120/"
@@ -139,7 +139,7 @@
       "/course/14941/12013/"
     ]
   ],
-  "/course/CS/2130/": [
+  "CS 2130:Computer Systems and Organization 1": [
     [
       "Courses",
       "/course/CS/2130/"
@@ -169,7 +169,7 @@
       "/course/14942/4708/"
     ]
   ],
-  "/course/CS/2910/": [
+  "CS 2910:CS Education Practicum": [
     [
       "Courses",
       "/course/CS/2910/"
@@ -207,7 +207,7 @@
       "/course/12350/4708/"
     ]
   ],
-  "/course/CS/3100/": [
+  "CS 3100:Data Structures and Algorithms 2": [
     [
       "Courses",
       "/course/CS/3100/"
@@ -237,7 +237,7 @@
       "/course/15226/6046/"
     ]
   ],
-  "/course/CS/3120/": [
+  "CS 3120:Discrete Mathematics and Theory 2": [
     [
       "Courses",
       "/course/CS/3120/"
@@ -271,7 +271,7 @@
       "/course/15227/6046/"
     ]
   ],
-  "/course/CS/3130/": [
+  "CS 3130:Computer Systems and Organization 2": [
     [
       "Courses",
       "/course/CS/3130/"
@@ -297,7 +297,7 @@
       "/course/15228/4708/"
     ]
   ],
-  "/course/CS/3140/": [
+  "CS 3140:Software Development Essentials": [
     [
       "Courses",
       "/course/CS/3140/"
@@ -315,7 +315,7 @@
       "/course/15206/8052/"
     ]
   ],
-  "/course/CS/3205/": [
+  "CS 3205:HCI in Software Development": [
     [
       "Courses",
       "/course/CS/3205/"
@@ -333,7 +333,7 @@
       "/course/9484/4621/"
     ]
   ],
-  "/course/CS/3240/": [
+  "CS 3240:Software Engineering": [
     [
       "Courses",
       "/course/CS/3240/"
@@ -363,7 +363,7 @@
       "/course/7610/8052/"
     ]
   ],
-  "/course/CS/3250/": [
+  "CS 3250:Software Testing": [
     [
       "Courses",
       "/course/CS/3250/"
@@ -381,7 +381,7 @@
       "/course/13744/12448/"
     ]
   ],
-  "/course/CS/3710/": [
+  "CS 3710:Introduction to Cybersecurity": [
     [
       "Courses",
       "/course/CS/3710/"
@@ -415,7 +415,7 @@
       "/course/13745/671/"
     ]
   ],
-  "/course/CS/4444/": [
+  "CS 4444:Introduction to Parallel Computing": [
     [
       "Courses",
       "/course/CS/4444/"
@@ -425,7 +425,7 @@
       "/course/607/13126/"
     ]
   ],
-  "/course/CS/4457/": [
+  "CS 4457:Computer Networks": [
     [
       "Courses",
       "/course/CS/4457/"
@@ -451,7 +451,7 @@
       "/course/608/8059/"
     ]
   ],
-  "/course/CS/4501/": [
+  "CS 4501:Special Topics in Computer Science": [
     [
       "Courses",
       "/course/CS/4501/"
@@ -661,7 +661,7 @@
       "/course/609/11844/"
     ]
   ],
-  "/course/CS/4620/": [
+  "CS 4620:Compilers": [
     [
       "Courses",
       "/course/CS/4620/"
@@ -671,7 +671,7 @@
       "/course/10644/7918/"
     ]
   ],
-  "/course/CS/4630/": [
+  "CS 4630:Defense Against the Dark Arts": [
     [
       "Courses",
       "/course/CS/4630/"
@@ -693,7 +693,7 @@
       "/course/611/12448/"
     ]
   ],
-  "/course/CS/4710/": [
+  "CS 4710:Artificial Intelligence": [
     [
       "Courses",
       "/course/CS/4710/"
