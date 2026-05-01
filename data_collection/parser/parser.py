@@ -1,8 +1,8 @@
 import json
 from datetime import date
 
-from src.save_json import load_json
-from src.scraper.courses_scraper import get_course_page_data
+from data_collection.save_json import load_json
+from data_collection.scraper.courses_scraper import get_course_page_data
 
 
 

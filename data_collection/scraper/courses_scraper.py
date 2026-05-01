@@ -41,23 +41,19 @@ def get_course_page_data(course_href):
     }
 
 def get_course_addrs(department="31"):
+    # TO BE ADDED here, adjust postfix to either "?latest=false&page=" or "?latest=false&page="
     courses_url = course_forum_url + "/department/" + department + "?page="
     course_links = []
     page = 1
     end = False
     while not end:
-        # print("page: ", page)
         curr_course_url = courses_url + str(page)
-        # print("courses_url: ", curr_course_url)
         course_list = get_soup_list(curr_course_url)
-
         # First pass: pull all links that look like course links
         for c in course_list:
             if c in course_links:
-                # print("Course is in course links. Past max page.")
                 end = True
                 break
-            # print("Adding course: ", c)
             # new_link = c + "?latest=false"
             course_links.append(c)
 
@@ -82,11 +78,9 @@ def get_course_section_dict(course_links):
             token = info[i]
         str_title = " ".join(title)
         course_key = code + ":" + str_title
-        print(course_key)
-        # print(item)
-        item_list = list(item)
-        # print(f"href: {item_list[-1]}")
 
+        item_list = list(item)
+        # TO BE ADDED: sections should be
         sections_url = course_forum_url + item_list[-1] + "?latest=false"
         section_list = get_soup_list(sections_url)
 
@@ -98,37 +92,6 @@ def get_course_section_dict(course_links):
                 # print("s: ",s)
                 section_links.append(s)
 
-        # for item in section_links[:20]:
-            # print(item)
-            # item_list = list(item)
-            # print(f"href: {item_list[-1]}")
-
         course_section_dict[course_key] = section_links
 
     return course_section_dict
-
-
-
-#
-# ## code to get each of the course-section dictionaries for the given department:
-# test_get_soup_list = get_soup_list(course_forum_url)
-# test_get_course_addrs = get_course_addrs(department="31")
-# test_get_course_section_dict = get_course_section_dict(test_get_course_addrs)
-# # print(test_get_course_section_dict)
-# test_list_course_section_dict = list(test_get_course_section_dict.values())
-#
-# value = test_list_course_section_dict[1]
-# hrefs = list(test_get_course_section_dict.keys())
-# href = hrefs[0]
-# print("Tester href: ",href)
-#
-#
-#
-# ## get sections of each course
-# test_sect_url = course_forum_url + href
-# print(test_sect_url)
-# course_soup = get_soup_list(test_sect_url)
-# print(course_soup)
-#
-# tester = get_soup_list(test_sect_url)
-# print(tester)

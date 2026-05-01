@@ -1,5 +1,5 @@
-from src.save_json import save_json
-from src.scraper.courses_scraper import get_soup, get_soup_list, get_course_addrs, get_course_section_dict, get_course_page_data
+from data_collection.save_json import save_json
+from data_collection.scraper.courses_scraper import get_soup, get_soup_list, get_course_addrs, get_course_section_dict, get_course_page_data
 
 course_forum_url = "https://thecourseforum.com"
 subject="CS"
