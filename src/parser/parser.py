@@ -10,25 +10,46 @@ def parse_course_lines(lines):
         "course_code": None,
         "course_title": None,
         "instructor": None,
-        "last_taught": None,
-        "sections": [],
-        "review_summary": None,
-        "review_count": None,
-        "class_size": 0,
     }
 
     # basic course metadata
-    data["course_code"] = lines[20]
-    data["course_title"] = lines[21]
-    data["instructor"] = lines[22]
+    for i, line in enumerate(lines):
+        if line.startswith("CS ") and i + 2 < len(lines):
+            data["course_code"] = line.strip()
+            if i + 1 < len(lines):
+                data["course_title"] = lines[i+1]
+            if i + 2 < len(lines):
+                data["instructor"] = lines[i+2]
+            break
 
+    return data
 
-    if lines[23].startswith("Last taught:"):
-        data["last_taught"] = lines[23].replace("Last taught:", "").strip()
+def parse_class_size(lines):
+    total = 0
+    i = 0
+    current_type = None
 
+    while i < len(lines):
+        if lines[i] in ("Lecture", "Seminar"):
+            current_type = lines[i]
+
+        if lines[i] == "Enrolled:" and i+1 < len(lines):
+            val = lines[i + 1]
+            if '/' in val:
+                try:
+                    _, capacity = val.split("/")
+                    total += int(capacity.strip())
+                except ValueError:
+                    pass
+        i += 1
+
+    return total
+
+    if "Sections" not in lines:
+        return data
 
     # sections
-    i = 0
+    i = lines.index("Sections")
     while i < len(lines):
         if lines[i] == "Review Summary":
             break
@@ -44,32 +65,25 @@ def parse_course_lines(lines):
                 "class_size": 0,
             }
 
-            j = i + 1
-
+            j = i
             while j < len(lines):
-                if lines[j].startswith("Section ") or lines[j] == "Review Summary":
+                if (lines[j].startswith("Section ") and j!=i) or (lines[j] == "Review Summary"):
                     break
 
                 if j + 1 < len(lines) and lines[j] == "Enrolled:":
-                    section["enrolled"] = lines[j + 1]
-
-                    if '/' in section["enrolled"]:
-                        current, capacity = section["enrolled"].split("/")
+                    val = lines[j + 1]
+                    if '/' in val:
+                        _, capacity = val.split("/")
                         section["class_size"] = int(capacity)
 
-                if j + 1 < len(lines) and lines[j] == "Waitlist:":
-                    section["waitlist"] = lines[j + 1]
-
                 j += 1
-
-
 
             data["sections"].append(section)
             i = j
         else:
             i += 1
 
-
+        print(data["sections"])
 
     # review summary
     if "Review Summary" in lines:
@@ -82,8 +96,12 @@ def parse_course_lines(lines):
         if idx + 3 < len(lines) and "Reviews" in lines[idx + 3]:
             data["review_count"] = lines[idx + 3]
 
+    print("updating class size...")
+    print(data["sections"])
     for section in data["sections"]:
+        print("before: ", data["class_size"])
         data["class_size"] += section["class_size"]
+        print("after: ", data["class_size"])
 
     return data
 

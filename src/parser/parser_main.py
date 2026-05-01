@@ -1,7 +1,7 @@
 import json
 from datetime import date
 
-from src.parser.parser import parse_course_lines, parse_review_metrics, average_field
+from src.parser.parser import parse_course_lines, parse_class_size, parse_review_metrics, average_field
 from src.save_json import save_json
 from src.scraper.courses_scraper import get_course_page_data, get_soup
 
@@ -10,26 +10,24 @@ if __name__ == '__main__':
     all_courses = []
     with open('../scraper/data/raw/course_sections.json') as f:
         courses_data = json.load(f)
+        count = 0
         for course in courses_data:
             # print(course)
             course_reviews = []
-
-            # base_url = "https://thecourseforum.com"
-            # print(base_url)
-
-
             sections = courses_data[course]
             sections = sections[1:]
-            # class_size = 0
+            total_class_size = 0
+
+            overview_data = get_course_page_data(course)
+            parsed_course_lines = parse_course_lines(overview_data)
+            course_code = parsed_course_lines.get("course_code")
+            course_title = parsed_course_lines.get("course_title")
+
 
             for section in sections:
+                print("Section: ", section)
                 url = section[1]
-
-                print(url)
-
                 section_data = get_course_page_data(url)
-
-                soup = section_data['soup']
 
                 text_lines = []
                 for i, line in enumerate(section_data["title"][:120]):
@@ -42,6 +40,7 @@ if __name__ == '__main__':
                 # # print("Parsed course lines at section loop:", parsed_course_lines)
                 # print("Course", course, "class size:", parsed_course_lines.get("class_size"))
                 course_reviews.extend(parse_review_metrics(text_lines))
+                total_class_size += parse_class_size(text_lines)
 
             # average rating features for a course across sections
             features = {
@@ -54,40 +53,17 @@ if __name__ == '__main__':
                 "num_reviews": len(course_reviews)
             }
 
-
-            full_course_data = get_course_page_data(course)
-            course_text_lines = []
-            for i, line in enumerate(full_course_data["title"]):
-                # print(i, line)
-                course_text_lines.append(line)
-
-            parsed_course_lines = parse_course_lines(course_text_lines)
-            print("Parsed course lines:", parsed_course_lines)
-
-            # save class_size
-            total_class_size = parsed_course_lines.get("class_size")
-            print("Total class size:", total_class_size)
-            # curr_year = date.today().year
-            # month = date.today().month
-            #
-            # if month in [3, 4, 5, 6, 7, 8]:
-            #     upcoming_semester = "Fall" + str(curr_year)
-            # else:
-            #     upcoming_semester = "Spring" + str(curr_year)
-
-
-
             cleaned_course_data = {
-                "course_code": parsed_course_lines.get("course_code"),
-                "course_title": parsed_course_lines.get("course_title"),
+                "course_code": course_code,
+                "course_title": course_title,
                 "class_size": total_class_size,
             }
 
-            course_data = {**cleaned_course_data, **features}
+            new_data = {**cleaned_course_data, **features}
 
-            print(course_data)
+            print(new_data)
 
-            all_courses.append(course_data)
+            all_courses.append(new_data)
 
     print(all_courses)
     save_json(all_courses, "processed_courses.json")
