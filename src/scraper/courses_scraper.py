@@ -3,13 +3,16 @@ from bs4 import BeautifulSoup
 
 course_forum_url = "https://thecourseforum.com"
 
-def get_soup_list(url, subject="CS"):
+def get_soup(url):
     headers = {
         "User-Agent": "Mozilla/5.0"
     }
     resp = requests.get(url, headers=headers)
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    return BeautifulSoup(resp.text, "html.parser")
+
+def get_soup_list(url, subject="CS"):
+    soup = get_soup(url)
 
     pre = subject + " "
     soup_list = []
@@ -21,15 +24,30 @@ def get_soup_list(url, subject="CS"):
 
     return soup_list
 
+def get_course_page_data(course_href):
+    url = course_forum_url + course_href
+    soup = get_soup(url)
+
+    text_lines = [
+        line.strip()
+        for line in soup.get_text("\n").split("\n")
+        if line.strip()
+    ]
+
+    return {
+        "url": url,
+        "title": text_lines,
+    }
+
 def get_course_addrs(department="31"):
     courses_url = course_forum_url + "/department/" + department + "?page="
     course_links = []
     page = 1
     end = False
     while not end:
-        print("page: ", page)
+        # print("page: ", page)
         curr_course_url = courses_url + str(page)
-        print("courses_url: ", curr_course_url)
+        # print("courses_url: ", curr_course_url)
         course_list = get_soup_list(curr_course_url)
 
         # First pass: pull all links that look like course links
@@ -38,7 +56,7 @@ def get_course_addrs(department="31"):
                 print("Course is in course links. Past max page.")
                 end = True
                 break
-            print("Adding course: ", c)
+            # print("Adding course: ", c)
             course_links.append(c)
 
         # print(course_links)
@@ -59,25 +77,39 @@ def get_course_section_dict(course_links):
         # First pass: pull all links that look like course links
         section_links = []
         for s in section_list:
-            if not "?mode=clubs" in s.href and not s.href.startswith("/login"):
+            href = s[1]
+            if not "?mode=clubs" in href and not href.startswith("/login"):
                 section_links.append(s)
 
-        for item in section_links[:20]:
-            print(item)
-            item_list = list(item)
-            print(f"href: {item_list[-1]}")
+        # for item in section_links[:20]:
+            # print(item)
+            # item_list = list(item)
+            # print(f"href: {item_list[-1]}")
 
         course_section_dict[item_list[-1]] = section_links
 
     return course_section_dict
 
-# def get_course_reviews(course_section_dict):
-#
-# test_course_sect = course_section_dict[list(course_section_dict.keys())[0]]
-# print(test_course_sect)
-# value = test_course_sect[1]
-# href = list(value)[-1]
-# print(href)
-#
-# tester = get_soup_list(course_forum_url+href)
-# print(tester)
+
+## code to get each of the course-section dictionaries for the given department:
+test_get_soup_list = get_soup_list(course_forum_url)
+test_get_course_addrs = get_course_addrs(department="31")
+test_get_course_section_dict = get_course_section_dict(test_get_course_addrs)
+# print(test_get_course_section_dict)
+test_list_course_section_dict = list(test_get_course_section_dict.values())
+
+value = test_list_course_section_dict[1]
+hrefs = list(test_get_course_section_dict.keys())
+href = hrefs[0]
+print("Tester href: ",href)
+
+
+
+## get sections of each course
+test_sect_url = course_forum_url + href
+print(test_sect_url)
+course_soup = get_soup_list(test_sect_url)
+print(course_soup)
+
+tester = get_soup_list(test_sect_url)
+print(tester)
