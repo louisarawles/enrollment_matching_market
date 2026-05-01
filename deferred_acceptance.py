@@ -45,9 +45,11 @@ def da(
         for student in students_df.index:
             if student not in unassigned_students:
                 course = available_course[student]
-                best_choice = students_df.loc[student][
-                    students_df.loc[student].index.isin(course)
-                ].idxmin()
+                remaining = students_df.loc[student][students_df.loc[student].index.isin(course)]
+                if remaining.empty:
+                    unassigned_students.append(student)
+                    continue
+                best_choice = remaining.idxmin()
                 matches[(student, best_choice)] = (
                     students_df.loc[student][best_choice],
                     courses_df.loc[student][best_choice],
