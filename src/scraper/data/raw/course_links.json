@@ -1,0 +1,194 @@
+[
+  [
+    "CS 1110 Introduction to Programming Fall 2026 A first course in programming, software development, and computer science. Introduces computing fundamentals and an appreciation for computational thinking. No previous programming experience required. Note: CS 1110, 1111, 1112, 1113, \u2026 4.0 Rating 3.1 Difficulty 3.41 GPA",
+    "/course/CS/1110/"
+  ],
+  [
+    "CS 1112 Introduction to Programming Fall 2026 A first course in programming, software development, and computer science. Introduces computing fundamentals and an appreciation for computational thinking. Prerequisite: Students must have no previous programming experience. Note: CS 1110, \u2026 4.2 Rating 2.3 Difficulty 3.51 GPA",
+    "/course/CS/1112/"
+  ],
+  [
+    "CS 2100 Data Structures and Algorithms 1 Fall 2026 A second course in computing with an emphasis on foundational data structures and program analysis. The course provides a introduction to object oriented programming and the Java programming language, concurrency, \u2026 3.2 Rating 3.0 Difficulty 3.59 GPA",
+    "/course/CS/2100/"
+  ],
+  [
+    "CS 2120 Discrete Mathematics and Theory 1 Fall 2026 Introduces discrete mathematics and proof techniques involving first order predicate logic and induction. Application areas include sets, tuples, functions, relations, and combinatorial problems. Prereq: Must have completed CS 1110 or \u2026 3.0 Rating 2.9 Difficulty 3.41 GPA",
+    "/course/CS/2120/"
+  ],
+  [
+    "CS 2130 Computer Systems and Organization 1 Fall 2026 This course covers topics on the computer architecture abstraction hierarchy ranging from a step above silicon to a step below modern programming languages. Students in this course will learn to \u2026 2.8 Rating 4.4 Difficulty 3.17 GPA",
+    "/course/CS/2130/"
+  ],
+  [
+    "CS 2910 CS Education Practicum Fall 2026 An overview of computer science education for undergraduate students. Topics include ethics, diversity, tutoring and teaching techniques, and classroom management. Students enrolled in this course serve as a teaching assistant \u2026 3.8 Rating 1.0 Difficulty 3.95 GPA",
+    "/course/CS/2910/"
+  ],
+  [
+    "CS 3100 Data Structures and Algorithms 2 Fall 2026 Builds upon previous analysis of algorithms and the effects of data structures on them. Algorithms selected from areas such as searching, shortest paths, greedy algorithms, backtracking, divide-and-conquer, dynamic programming, and \u2026 3.3 Rating 4.3 Difficulty 3.24 GPA",
+    "/course/CS/3100/"
+  ],
+  [
+    "CS 3120 Discrete Mathematics and Theory 2 Fall 2026 The goal of this course is to understand the fundamental limits on what can be efficiently computed. These limits reveal properties about information, communication, and computing, as well as practical \u2026 3.2 Rating 4.2 Difficulty 3.10 GPA",
+    "/course/CS/3120/"
+  ],
+  [
+    "CS 3130 Computer Systems and Organization 2 Fall 2026 A second course in computer systems, this course will explore a more realistic model of processors and how they and the operating system work together to provide various functionality we \u2026 3.1 Rating 4.5 Difficulty 3.25 GPA",
+    "/course/CS/3130/"
+  ],
+  [
+    "CS 3140 Software Development Essentials Fall 2026 A first course in software engineering and software construction, this course focuses on bringing the programming concepts learned in a first course in data structures and algorithms together to begin \u2026 3.4 Rating 3.2 Difficulty 3.33 GPA",
+    "/course/CS/3140/"
+  ],
+  [
+    "CS 3205 HCI in Software Development Fall 2026 Human-computer interaction and user-centered design in the context of software engineering. Examines the fundamental principles of human-computer interaction. Includes evaluating a system's usability based on well-defined criteria; user and task \u2026 2.7 Rating 2.9 Difficulty 3.53 GPA",
+    "/course/CS/3205/"
+  ],
+  [
+    "CS 3240 Software Engineering Fall 2026 Analyzes modern software engineering practice for multi-person projects; methods for requirements specification, design, implementation, verification, and maintenance of large software systems; advanced software development techniques and large project management approaches; \u2026 3.4 Rating 2.6 Difficulty 3.71 GPA",
+    "/course/CS/3240/"
+  ],
+  [
+    "CS 3250 Software Testing Fall 2026 An introduction to testing for assuring software quality. Covers concepts and techniques for testing software, including testing at the unit, module, subsystem, and system levels; automatic and manual techniques for \u2026 3.4 Rating 2.2 Difficulty 3.49 GPA",
+    "/course/CS/3250/"
+  ],
+  [
+    "CS 3710 Introduction to Cybersecurity Fall 2026 Introduces students to the fields of cybersecurity. Both non-technical issues, such as ethics and policy, and technical issues are covered. Students see and experiment with a wide range of areas \u2026 4.2 Rating 2.0 Difficulty 3.76 GPA",
+    "/course/CS/3710/"
+  ],
+  [
+    "CS 4444 Introduction to Parallel Computing Fall 2026 Introduces the student to the basics of high-performance parallel computing and application development for massively parallel processors (e.g., GPUs). The course will also introduce the internal architecture of these parallel \u2026 4.0 Rating 4.3 Difficulty 3.22 GPA",
+    "/course/CS/4444/"
+  ],
+  [
+    "CS 4457 Computer Networks Fall 2026 A first course in communication networks for upper-level undergraduate students. Topics include the design of modern communication networks; point-to-point and broadcast network solutions; advanced issues such as Gigabit networks; ATM \u2026 3.5 Rating 3.0 Difficulty 3.36 GPA",
+    "/course/CS/4457/"
+  ],
+  [
+    "CS 4501 Special Topics in Computer Science Fall 2026 Content varies annually, depending on instructor interests and the needs of the department. Similar to CS 5501 and CS 7501, but taught strictly at the undergraduate level. Prerequisite: Must have \u2026 3.7 Rating 3.0 Difficulty 3.63 GPA",
+    "/course/CS/4501/"
+  ],
+  [
+    "CS 4620 Compilers Fall 2026 Provides an introduction to the field of compilers, which translate programs written in high-level languages to a form that can be executed. The course covers the theories and mechanisms of \u2026 3.5 Rating 3.5 Difficulty 3.65 GPA",
+    "/course/CS/4620/"
+  ],
+  [
+    "CS 4630 Defense Against the Dark Arts Fall 2026 Viruses, worms, and other malicious software are an ever-increasing threat to computer systems. There is an escalating battle between computer security specialists and the designers of malicious software. This course \u2026 3.3 Rating 3.3 Difficulty 3.31 GPA",
+    "/course/CS/4630/"
+  ],
+  [
+    "CS 4710 Artificial Intelligence Fall 2026 Introduces artificial intelligence. Covers fundamental concepts and techniques and surveys selected application areas. Core material includes state space search, logic, and resolution theorem proving. Application areas may include expert systems, \u2026 3.3 Rating 3.2 Difficulty 3.66 GPA",
+    "/course/CS/4710/"
+  ],
+  [
+    "CS 4720 Mobile Application Development Fall 2026 Mobile computing devices have become ubiquitous in our communities. In this course, we focus on the creation of mobile solutions for various modern platforms, including major mobile operating systems. Topics \u2026 3.0 Rating 3.1 Difficulty 3.66 GPA",
+    "/course/CS/4720/"
+  ],
+  [
+    "CS 4730 Computer Game Design Fall 2026 This course will introduce students to the concepts and tools used in the development of modern 2-D and 3-D real-time interactive computer video games. Topics covered in this include graphics, \u2026 4.3 Rating 3.5 Difficulty 3.60 GPA",
+    "/course/CS/4730/"
+  ],
+  [
+    "CS 4740 Cloud Computing Fall 2026 Investigates the architectural foundations of the various cloud platforms, as well as examining both current cloud computing platforms and modern cloud research. Student assignments utilize the major cloud platforms. Prerequisite: \u2026 2.9 Rating 2.2 Difficulty 3.62 GPA",
+    "/course/CS/4740/"
+  ],
+  [
+    "CS 4750 Database Systems Fall 2026 Introduces the fundamental concepts for design and development of database systems. Emphasizes relational data model and conceptual schema design using ER model, practical issues in commercial database systems, database design \u2026 3.6 Rating 2.3 Difficulty 3.74 GPA",
+    "/course/CS/4750/"
+  ],
+  [
+    "CS 4771 Reinforcement Learning Fall 2026 This course aims to give an introduction to basic ideas and concepts of RL while avoiding deep dive in mathematical treatments. The course will help the student build an intuitive \u2026 \u2014 Rating \u2014 Difficulty 3.92 GPA",
+    "/course/CS/4771/"
+  ],
+  [
+    "CS 4774 Machine Learning Fall 2026 An introduction to machine learning: the study of algorithms that improve their performance through experience. Covers both machine learning theory and algorithms. Introduces algorithms, theory, and applications related to both \u2026 3.4 Rating 3.1 Difficulty 3.74 GPA",
+    "/course/CS/4774/"
+  ],
+  [
+    "CS 4971 Capstone Practicum Fall 2026 This course is one option for the BSCS capstone requirement. Under the practicum option, students work together on teams to build and evaluate a semester-long project. Practicum projects are intended \u2026 4.0 Rating 2.5 Difficulty 3.49 GPA",
+    "/course/CS/4971/"
+  ],
+  [
+    "CS 4980 Capstone Research Fall 2026 This course is one option in the CS fourth-year thesis track. Students will seek out a faculty member as an advisor, and do an independent project with said advisor. Instructors \u2026 \u2014 Rating \u2014 Difficulty 3.91 GPA",
+    "/course/CS/4980/"
+  ],
+  [
+    "CS 4993 Independent Study Fall 2026 In-depth study of a computer science or computer engineering problem by an individual student in close consultation with departmental faculty. The study is often either a thorough analysis of an \u2026 5.0 Rating 4.0 Difficulty 3.77 GPA",
+    "/course/CS/4993/"
+  ],
+  [
+    "CS 4998 Distinguished BA Majors Research Fall 2026 Required for Distinguished Majors completing the Bachelor of Arts degree in the College of Arts and Sciences. An introduction to computer science research and the writing of a Distinguished Majors \u2026 \u2014 Rating \u2014 Difficulty 3.98 GPA",
+    "/course/CS/4998/"
+  ],
+  [
+    "CS 6111 Cloud Computing Fall 2026 This course introduces a basic grounding in designing and implementing cloud systems. It aims to acquaint students with principles and technologies of server clusters, virtualized datacenters, Internet clouds, and applications. \u2026 \u2014 Rating \u2014 Difficulty 3.76 GPA",
+    "/course/CS/6111/"
+  ],
+  [
+    "CS 6160 Theory of Computation Fall 2026 Analyzes formal languages, the Chomsky hierarchy, formal computation and machine models, finite automata, pushdown automata, Turing machines, Church's thesis, reductions, decidability and undecidability, and NP-completeness. Prerequisite: CS 3102 or equivalent. \u2014 Rating \u2014 Difficulty 3.79 GPA",
+    "/course/CS/6160/"
+  ],
+  [
+    "CS 6190 Computer Science Perspectives Fall 2026 This 'acclimation' seminar helps new graduate students become productive researchers. Faculty and visitors speak on a wide variety of research topics, as well as on tools available to researchers, including \u2026 1.3 Rating 1.0 Difficulty 3.93 GPA",
+    "/course/CS/6190/"
+  ],
+  [
+    "CS 6222 Introduction to Cryptography Fall 2026 This course will provide an introduction to modern cryptography and its applications to computer security. This course will cover the fundamentals of symmetric cryptography (i.e., encryption and message authentication) and \u2026 \u2014 Rating \u2014 Difficulty 3.75 GPA",
+    "/course/CS/6222/"
+  ],
+  [
+    "CS 6316 Machine Learning Fall 2026 This is a graduate-level machine learning course. Machine Learning is concerned with computer programs that automatically improve their performance through experience. This course covers introductory topics about the theory and \u2026 \u2014 Rating \u2014 Difficulty 3.88 GPA",
+    "/course/CS/6316/"
+  ],
+  [
+    "CS 6354 Computer Architecture Fall 2026 Study of representative digital computer organization with emphasis on control unit logic, input/output processors and devices, asynchronous processing, concurrency, and parallelism. Memory hierarchies. Prerequisite: CS 3330 or proficiency in assembly \u2026 \u2014 Rating \u2014 Difficulty 3.73 GPA",
+    "/course/CS/6354/"
+  ],
+  [
+    "CS 6457 Computer Networks Fall 2026 This course examines modern networked systems through the lens of emerging technologies and architectures. Topics include, but are not limited to, congestion control, programmable networks, data center networks, wireless networks, \u2026 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+    "/course/CS/6457/"
+  ],
+  [
+    "CS 6501 Special Topics in Computer Science Fall 2026 Course content varies by section and is selected to fill timely and special interests and needs of students. See CS 7501 for example topics. May be repeated for credit when \u2026 3.2 Rating 2.4 Difficulty 3.81 GPA",
+    "/course/CS/6501/"
+  ],
+  [
+    "CS 6770 Natural Language Processing Fall 2026 This course explores Natural Language Processing (NLP), examining how computers are trained to understand and process human language. Students will gain a thorough understanding of both core NLP concepts and \u2026 \u2014 Rating \u2014 Difficulty 3.81 GPA",
+    "/course/CS/6770/"
+  ],
+  [
+    "CS 6780 Cyber-Physical Systems Technology and Ethics Fall 2026 This course is designed to develop cross-competency in the technical, analytical, and professional capabilities necessary for the emerging field of Cyber-Physical Systems (CPS). It provides convergence learning activities based around \u2026 \u2014 Rating \u2014 Difficulty 3.72 GPA",
+    "/course/CS/6780/"
+  ],
+  [
+    "CS 6890 Industrial Applications Fall 2026 A graduate student returning from Curricular Practical Training can use this course to claim one credit hour of academic credit after successfully reporting, orally and in writing, a summary of \u2026 \u2014 Rating \u2014 Difficulty \u2014 GPA",
+    "/course/CS/6890/"
+  ],
+  [
+    "CS 6993 Independent Study Fall 2026 Detailed study of graduate course material on an independent basis under the guidance of a faculty member. \u2014 Rating \u2014 Difficulty 3.98 GPA",
+    "/course/CS/6993/"
+  ],
+  [
+    "CS 7993 Independent Study Fall 2026 Detailed study of graduate course material on an independent basis under the guidance of a faculty member. \u2014 Rating \u2014 Difficulty 3.95 GPA",
+    "/course/CS/7993/"
+  ],
+  [
+    "CS 7995 Supervised Project Research Fall 2026 Formal record of student commitment to project research for the Master of Computer Science degree under the guidance of a faculty advisor. \u2014 Rating \u2014 Difficulty 3.89 GPA",
+    "/course/CS/7995/"
+  ],
+  [
+    "CS 8897 Graduate Teaching Instruction Fall 2026 For master's students who are teaching assistants. \u2014 Rating \u2014 Difficulty 1.30 GPA",
+    "/course/CS/8897/"
+  ],
+  [
+    "CS 8999 Thesis Fall 2026 Formal record of student commitment to thesis research for the Master of Science degree under the guidance of a faculty advisor. May be repeated as necessary. \u2014 Rating \u2014 Difficulty 2.10 GPA",
+    "/course/CS/8999/"
+  ],
+  [
+    "CS 9897 Graduate Teaching Instruction Fall 2026 For doctoral students who are teaching assistants. \u2014 Rating \u2014 Difficulty \u2014 GPA",
+    "/course/CS/9897/"
+  ],
+  [
+    "CS 9999 Dissertation Fall 2026 Formal record of student commitment to doctoral research under the guidance of a faculty advisor. May be repeated as necessary. \u2014 Rating \u2014 Difficulty 1.30 GPA",
+    "/course/CS/9999/"
+  ]
+]
