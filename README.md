@@ -1,2 +1,2 @@
-# enrollment_matching_market
+# UVA Enrollment as a Matching Market
 Course enrollment preference prediction and matching market system.
